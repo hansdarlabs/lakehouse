@@ -1,2 +1,32 @@
-*.class
+# intellij idea
+*.iml
 *.log
+*.ipr
+*.iws
+.idea
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# scala
+*.class
+bin/
+project/
+target/
+build/
+
+# sbt
+.bsp
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
